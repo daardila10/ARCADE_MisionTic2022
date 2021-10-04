@@ -1,0 +1,103 @@
+/*
+Keyword colors can be found at http://colours.neilorangepeel.com/
+*/
+
+/* border-box fix */
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+ 
+  
+}
+h1 {
+  text-transform: uppercase;
+  text-align:center;
+ font-size: 4.3rem;
+ color:beige;
+  
+}
+h2{
+  color:white;
+}
+h3{
+  color:black;
+}
+
+/* Add padding to all of the .container child elements */
+.container > * {
+  padding: 20px;
+}
+.container {
+  color: white;
+  font-family: helvetica, arial, sans-serif;
+  display: grid;
+  grid-template-columns: repeat(12, minmax(0, 1fr));
+}
+
+header {
+  background:none;
+  grid-column: 1 / 10;
+  grid-column: 1 / 13;
+  color:darkblue;
+}
+main {
+  background: none;
+ /* grid-column: 4 / 10;*/
+ grid-column: 4 /10;
+ color:black;
+}
+nav {
+  background: none;
+  grid-column: 1 / 4;
+}
+aside {
+  background: none;
+ /* grid-column: 10 / 13;*/
+ grid-column:10/13;
+}
+main, nav, aside {
+ /* grid-row: 2 / 4; */
+ grid-row:2/4;
+}
+footer {
+  background: none;
+ /* grid-column: 1 / 13;*/
+ grid-column: 1 / 13;
+}
+a{
+  font-size:20px;
+  color:red;
+}
+.flecha{
+  position:absolute;
+  top:30px;
+  left:20px;
+  width:30px;
+  height:30px;
+}
+/* unvisited link */
+a:link {
+  color: red;
+}
+
+/* visited link */
+a:visited {
+  color: black;
+}
+
+/* mouse over link */
+a:hover {
+  color: red;
+}
+
+/* selected link */
+a:active {
+  color: blue;
+}
