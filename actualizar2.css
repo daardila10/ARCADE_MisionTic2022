@@ -1,0 +1,139 @@
+*{box-sizing:border-box;}
+
+form{
+    width:500px;
+    padding:16px;
+    border-radius:10px;
+    margin:auto;
+    background-color: #ccc;
+}
+form label{
+    width:350px;
+    font-weight:100;
+    display: inline-block;
+}
+h3{
+    color:darkblue;
+    text-align: center;
+   
+}
+
+body{
+    font-size: 1.2rem;
+    border-color: blue;
+    background:rgb(1, 1, 61);
+}
+input::placeholder {
+    color: gray;
+    font-size: 1.5em;
+    font-style: italic;
+  }
+  input {
+    width: 400px;
+    padding: 0 20px;
+}
+
+input,
+input::-webkit-input-placeholder {
+    font-size: 12px;
+    line-height: 3;
+}
+label {
+    display: block;
+    font: 1rem 'Fira Sans', sans-serif;
+}
+
+input,
+label {
+    margin: .4rem 0;
+}
+.btn {
+    background-color:gray; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+  }
+
+  .button {
+    background-color:darkblue; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 30px;
+  }
+  
+  .button2 {background-color: #008CBA;} /* Blue */
+  .button3 {background-color: #f44336;} /* Red */ 
+  .button4 {background-color: #e7e7e7; color: black;} /* Gray */ 
+  .button5 {background-color: #555555;} /* Black */
+
+  label {
+    display: block;
+    font: 1rem 'Fira Sans', sans-serif;
+}
+
+input,
+label {
+    margin: .4rem 0;
+}
+a{
+    border-radius: 30px;
+    font-size: 2.5;
+}
+.flecha{
+    position:absolute;
+    top:30px;
+    left:20px;
+    width:30px;
+    height:30px;
+    border-radius: 10px;
+  }
+.btn:link {
+        color: red;
+      }
+      
+      /* visited link */
+      .btn:visited {
+        color: black;
+      }
+      
+      /* mouse over link */
+     .btn:hover {
+        color: red;
+      }
+      
+      /* selected link */
+      .btn:active {
+        color: blue;
+      }
+      
+.button:hover{
+    color:red;
+}
+.button:active{
+    background:white;
+
+}
+button:focus{
+    background:green;
+}
+.btn:hover{
+    color:red;
+}
+.btn:active{
+    background:white;
+
+}
+.btn:focus{
+    background:white;
+}
