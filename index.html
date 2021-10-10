@@ -1,65 +1,65 @@
 <!DOCTYPE html>
-<html lang="es">
-<head>
+<html lang="en">
+  <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!--Link de CSS-->
-    <link href="css/style.css" rel = "stylesheet" type="text/css">
-    <title>Sitio web</title>
-</head>
-<body>
-    <div class="header">
-        <h1>Programación ciclo 3</h1>
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maiores ut voluptate, tempore adipisci minima repellendus minus. Quasi incidunt quibusdam repudiandae voluptates dolores vitae asperiores unde enim? Nisi quia quo alias?</p>
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maiores ut voluptate, tempore adipisci minima repellendus minus. Quasi incidunt quibusdam repudiandae voluptates dolores vitae asperiores unde enim? Nisi quia quo alias?</p>
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maiores ut voluptate, tempore adipisci minima repellendus minus. Quasi incidunt quibusdam repudiandae voluptates dolores vitae asperiores unde enim? Nisi quia quo alias?</p>
-      </div>
+    <title>Apsells</title>
+    <link rel="stylesheet" href="floatsprint.css">
+  </head>
+  <body background="bacl.jpg">
+    <div class="container">
+      <header>
+        <h1>ApSells</h1>
+      </header>
+      <nav>
       
-      <div class="topnav">
-        <a href="seccion1.html">Sección 1</a>
-        <a href="#">Sección 2</a>
-        <a href="#">Sección 3</a>
-        <a href="#">Sección 4</a>
-      </div>
-      
-      <div class="row">
-        <div class="leftcolumn">
-          <div class="card">
-            <h2>Titulo 2</h2>
-            <h5>Description titulo | 21-09-2021</h5>
-            <div class="fakeimg" style="height:200px;">Image</div>
-            <p>Some text..</p>
-            <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
-          </div>
-          <div class="card">
-            <h2>Titulo 3</h2>
-            <h5>Description titulo | 21-09-2021</h5>
-            <div class="fakeimg" style="height:200px;">Image</div>
-            <p>Texto</p>
-            <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
-          </div>
+        <div class="wrap">
+        <div class="widget">
+        <div class="fecha">
+          <p id="diaSemana" class="diaSemana"></p>         
+           <p id="dia" class="dia"></p>
+           <p>de</p>
+           <p id="mes" class="mes"></p>
+           <p>del</p>
+           <p id="year" class="year"></p>
         </div>
-        <div class="rightcolumn">
-          <div class="card">
-            <h2>About Me</h2>
-            <div class="fakeimg" style="height:100px;">Image</div>
-            <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
-          </div>
-          <div class="card">
-            <h3>Popular Post</h3>
-            <div class="fakeimg"><p>Image</p></div>
-            <div class="fakeimg"><p>Image</p></div>
-            <div class="fakeimg"><p>Image</p></div>
-          </div>
-          <div class="card">
-            <h3>Follow Me</h3>
-            <p>Some text..</p>
-          </div>
+      
+     
+        <div class="reloj">
+        <p id="horas" class="horas"></p>
+        <p>:</p>
+        <p id="minutos" class="minutos"></p>
+        <p>:</p>
+        <div class="caja-segundos">
+          <p id="ampm" class="ampm"></p>
+          <p id="segundos" class="segundos"></p>
         </div>
       </div>
-      <div class="footer">
-        <h2>Footer</h2>
+    </div>
+  </div>  
+      <script src= "reloj.js"></script>
+      
+      </nav>
+      <main id="main-content">
+    
+      </main>
+      <aside>
+             <h2>Credentials</h2>
+              <div id="contenedor">
+          <form>
+              <label>Usuario:</label><br>
+              <p><input id="user" type="text" placeholder=&#128272><br></p>
+              <p><label>Contraseña:</label><br></p>
+              <input id="contra" type="password" placeholder=&#128273><br>
+              <p><input id="boton" type="button" onclick="login()" value="Ingresar"><br><br></p>
+              <h3>Team1.MinTic 2022</h3>
+            </form>
+        </aside>
+      <footer>
+        <h2></h2>
+      </footer>
       </div>
-</body>
+    <script src="login.js"></script>
+  </body>
 </html>
+

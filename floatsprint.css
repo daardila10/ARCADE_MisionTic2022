@@ -1,0 +1,153 @@
+/*
+Keyword colors can be found at http://colours.neilorangepeel.com/
+*/
+
+/* border-box fix */
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+h1 {
+  text-transform: uppercase;
+  font-size:5rem;
+
+}
+h2 {
+  color:black;
+}
+h3{
+  color:black;
+}
+
+/* Add padding to all of the .container child elements */
+.container > * {
+  padding: 20px;
+}
+.container {
+  color: white;
+  font-family: helvetica, arial, sans-serif;
+  text-align:center;
+ 
+}
+
+header {
+  background:none;
+}
+main {
+  background:none;
+}
+nav {
+  background:none;
+}
+aside {
+  background: rgb(76, 121, 179);
+  padding:5px;
+  margin:15px;
+  text-align:center;
+  border-radius:25px;
+}
+footer {
+  background: none;
+}
+
+@media (min-width: 600px){
+  nav {
+    width: 45%;
+    float: left;
+  }
+  main {
+    width: 75%;
+    float: left;
+  }
+  aside {
+    clear: both;
+  }
+}
+@media (min-width: 850px){
+  main {
+    width: 10%;
+  }
+  aside {
+    width: 25%;
+    clear: none;
+    float: right;
+  }
+  footer {
+    clear: both;
+  }
+  .wrap{
+     width:90%;
+     max-width: 2000px;
+  }
+  .widget{
+    width: 150%;
+    margin: 1em;
+  }
+  .widget p{
+    display: inline;
+    line-height:1em;
+    
+  }
+  .fecha{
+    font-family: Arial;
+    text-align: center;
+    font-size:1.2em;
+    margin-bottom: 0.3125rem;
+    background:none;
+    padding: 20px;
+    width: 100%;
+    border-radius: 40px;
+    display:inline-block;
+
+
+  }
+  .reloj{
+    font-family: Arial;
+    width:100%;
+    padding: 20px;
+    text-align: center;
+    font-size:3em;
+    background:none;
+    
+    width: 40%;
+    border-radius:40px;
+    display:inline-block;
+
+  }
+  .reloj .caja-segundos{
+    display:inline-block;
+  }
+  .reloj .segundos, 
+  .reloj .ampm {
+    font-size: 1rem;
+    display: block;
+  }
+  /* unvisited link */
+a:link {
+  color: red;
+}
+
+/* visited link */
+a:visited {
+  color: green;
+}
+
+/* mouse over link */
+a:hover {
+  color: hotpink;
+}
+
+/* selected link */
+a:active {
+  color: blue;
+}
+}

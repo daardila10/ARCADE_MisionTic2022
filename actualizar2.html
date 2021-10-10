@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="KEYWORDS" content="colores, fuentes, tipografias">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+  <link rel="stylesheet" href="actualizar2.css">
+  
+  <title>Actualizar Datos</title>
+</head>
+<body>
+  <header>
+    <a  href="main2.html"><img src="arrow.jpg" class="flecha"></a>
+  </header>
+  <section class="container">
+    <div class="row my-5">
+      <!---- Contenido-->
+      <div class="col-sm-12 col-md-12 col-lg-12">
+      <form action= "" method="POST">
+        <h3 clas="display-5 text-primary text-center">Actualización Datos</h3>
+        <div class="form-group">
+          <label>Nombre:</label>
+        <input type="text" placeholder="Intro.nombre" maxlength="30" id="nombre" name="nombre" class="form-control">
+
+        </div> 
+        <br/>
+        <div  class="form-group">
+          <label for="exampleFormControlSelect1">Cargo</label>
+          <select class="form-control" id="exampleFormControlSelect1" style="width: 300px;" >
+            <option>Select</option>
+            <option>Vendedor</option>
+            <option>Administrador</option>
+            <option>Cliente</option>
+            <option>Proveedor</option>
+            <option>Programador</option>
+          </select>
+          <br/>   <br/>
+         </div>
+          <div>
+            <label for="start">Cumpleaños:</label>
+
+<input type="date" id="start" name="trip-start"
+       value="2018-07-22"
+       min="1946-01-01" max="2008-12-31">
+
+          </div>
+          <br/>   
+          <div  class="form-group">
+            <label>Dirección de residencia</label>
+        <input type="text" placeholder="Escribir dirección" maxlength="50" id="nombre" name="nombre">
+      </div>
+
+          <div class="form-group">
+             
+          <label for="email">Email:</label>
+
+        <input type="email" placeholder="Ingres.Email" id="email" size="30" required
+       pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2, 4}$">  
+            
+        </div>
+        <br/> 
+          <div class="form-group">
+            <label># Celular</label>
+        <input type="number" placeholder="Digite telefono" maxlength="20" id="nombre" name="nombre">
+
+          </div>      
+          <br/>  
+        <div class="form-group">
+          <label for="exampleFormControlSelect1">Ciudad de trabajo</label>
+    <select class="form-control" id="exampleFormControlSelect1" style="width: 300px" style="font-size: 2.6rem;">
+      <option>Select</option>
+      <option>Neiva</option>
+      <option>Bogotá</option>
+      <option>Ibagué</option>
+      <option>Calí</option>
+      <option>Medellín</option>
+      </select>
+
+        </div>
+        <br/>   
+      <div  class="form-group">
+        <label> Agregue documento identidad 150 %: </label>
+      <input type="file">
+
+      </div>
+      <br/> 
+      <button class="button" type="submit">Submit</button>
+                
+      <a href="" class="btn btn-danger">Cancel</a>
+     
+      </form>
+    </div>
+
+    </div>
+  </section>
+</body>
+</html>
